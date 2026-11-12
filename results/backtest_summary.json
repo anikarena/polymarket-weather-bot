@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-10-28 15:43 UTC",
+  "days": [
+    "2026-09-27",
+    "2026-10-27"
+  ],
+  "fill_window_min": 30,
+  "events_note": "about half of the planned data, 1,788 events",
+  "scenarios": {
+    "d1 strict (runs>=48h)": {
+      "n": 1211,
+      "wins": 612,
+      "staked": 3144.3,
+      "pnl": -45.36,
+      "roi_pct": -1.4,
+      "avg_cost": 0.517,
+      "avg_model_p": 0.684
+    },
+    "d1 optimistic (runs>=24h)": {
+      "n": 1192,
+      "wins": 605,
+      "staked": 3124.66,
+      "pnl": -1.08,
+      "roi_pct": -0.0,
+      "avg_cost": 0.508,
+      "avg_model_p": 0.672
+    },
+    "d0 only, tau=0h": {
+      "n": 1285,
+      "wins": 592,
+      "staked": 3265.07,
+      "pnl": -4.33,
+      "roi_pct": -0.1,
+      "avg_cost": 0.471,
+      "avg_model_p": 0.646
+    },
+    "d0 only, tau=3h": {
+      "n": 1276,
+      "wins": 579,
+      "staked": 3164.55,
+      "pnl": 29.09,
+      "roi_pct": 0.9,
+      "avg_cost": 0.461,
+      "avg_model_p": 0.634
+    },
+    "d0 only, tau=6h": {
+      "n": 1290,
+      "wins": 597,
+      "staked": 3230.68,
+      "pnl": 59.08,
+      "roi_pct": 1.8,
+      "avg_cost": 0.46,
+      "avg_model_p": 0.638
+    },
+    "d0 only, tau=12h": {
+      "n": 1295,
+      "wins": 599,
+      "staked": 3468.98,
+      "pnl": 74.52,
+      "roi_pct": 2.1,
+      "avg_cost": 0.465,
+      "avg_model_p": 0.662
+    },
+    "full bot (d1 strict + d0 tau=6h)": {
+      "n": 1565,
+      "wins": 782,
+      "staked": 3985.42,
+      "pnl": 15.66,
+      "roi_pct": 0.4,
+      "avg_cost": 0.503,
+      "avg_model_p": 0.672
+    }
+  },
+  "log_loss": {
+    "d1 strict @12:30 UTC day before": {
+      "n": 3065,
+      "market": 0.3393,
+      "model": 0.4005
+    },
+    "d0 tau=6 @06:30 UTC": {
+      "n": 5626,
+      "market": 0.1852,
+      "model": 0.2245
+    }
+  },
+  "trades_total": 9114
+}

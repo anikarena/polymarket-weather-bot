@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-28 16:04 UTC",
+  "cheap_no": 0.97,
+  "dead_buckets": 2209,
+  "settled_no": 2209,
+  "latency_table": [
+    {
+      "latency_s": 0,
+      "buckets": 17,
+      "shares": 21036.9,
+      "profit": 1400.44,
+      "avg_no": 0.931
+    },
+    {
+      "latency_s": 30,
+      "buckets": 10,
+      "shares": 18994.7,
+      "profit": 1243.38,
+      "avg_no": 0.932
+    },
+    {
+      "latency_s": 60,
+      "buckets": 10,
+      "shares": 18994.7,
+      "profit": 1243.38,
+      "avg_no": 0.932
+    },
+    {
+      "latency_s": 120,
+      "buckets": 10,
+      "shares": 18993.5,
+      "profit": 1243.34,
+      "avg_no": 0.932
+    },
+    {
+      "latency_s": 300,
+      "buckets": 10,
+      "shares": 18964.1,
+      "profit": 1242.39,
+      "avg_no": 0.932
+    },
+    {
+      "latency_s": 900,
+      "buckets": 10,
+      "shares": 18964.1,
+      "profit": 1242.39,
+      "avg_no": 0.932
+    }
+  ]
+}

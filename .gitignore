@@ -1,0 +1,16 @@
+# Secrets: keep these out of git
+.env
+
+# Bot state and local data
+*_state.json
+*_state_*.json
+weather_backtest_cache/
+weather_backtest_results.json
+weather_speed_test_results.json
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
